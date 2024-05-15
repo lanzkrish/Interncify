@@ -14,7 +14,10 @@ nav=`<nav class="navbar navbar-expand-lg bg-body-tertiary">
         <a class="nav-link" href="#feature">Features</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#internships">Internships</a>
+        <a class="nav-link" href="#about">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#faqs">FAQs</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#ourteam">Our Team</a>

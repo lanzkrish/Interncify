@@ -27,7 +27,7 @@ home=`<div class="container">
 document.getElementById('home').innerHTML=home;
 
 
-features=[
+let features=[
     {
         featureHead: 'Hands-on Experience',
         featurebody: 'Gain practical knowledge through real-world projects'
@@ -90,3 +90,84 @@ ${feature}
 </div>`;
 
 document.getElementById('feature').innerHTML = featuresection;
+
+
+
+
+about=` <div class="container">
+<div class="d-flex p-3 flex-column justify-content-center align-items-center text-center " style="height: 50vh;">
+    <div class="hero-aboutheader mb-3 ">
+        <h1 class="fw-bold" >Welcome to Interncify - Your Gateway to Success</h1>
+    </div>
+    <span class="mb-3 ">Interncify offers unpaid internships to college students and recent graduates, providing them with valuable hands-on experience in the technical field. Our carefully curated programs are designed to help you grow, learn, and thrive in the ever-evolving world of technology. Join us on this journey towards a brighter future!</span>
+    <div class="heroheaderliks">
+        <a href="#" class="btn btn-primary me-4">Learn More</a>
+    </div>
+</div>
+</div>`;
+document.getElementById('about').innerHTML=about;
+
+
+
+let faqs=[
+    {
+        faqQns:"What is Interncify?",
+        faqAns:"Interncify is a software company that provides unpaid internships to college students and recent graduates to help them gain experience and knowledge in the technical field."
+    },
+    {
+        faqQns:"Who can apply for internships at Interncify?",
+        faqAns:"College students and recent graduates who are looking to gain practical experience in the technical field can apply for internships at Interncify."
+    },
+    {
+        faqQns:"Are Interncify internships paid?",
+        faqAns:"No, Interncify internships are unpaid. However, they provide valuable hands-on experience and learning opportunities."
+    },
+    {
+        faqQns:"How long do Interncify internships last?",
+        faqAns:"The duration of Interncify internships varies depending on the specific program. Typically, internships last for a few months."
+    },
+    {
+        faqQns:"How can I apply for an internship at Interncify?",
+        faqAns:"To apply for an internship at Interncify, you can visit our website and fill out the online application form. Make sure to submit all required documents and information."
+    },
+]
+
+let faqstr=``
+for(let i=0; i<faqs.length;i++){
+    faqstr+=`
+    <div class="row ">
+        <div class="col-lg-11 ">
+            <span class="faqqns" style="font-size: 25px; font-weight: 500; width: 100%;">${faqs[i].faqQns}</span>
+            <i class="fa fa-angle-down col-lg-1" onclick="showans()"></i>
+        </div>
+        <p class="hidden" id="faqans">${faqs[i].faqAns}</p>
+    </div>
+    `
+}
+document.getElementById('faqqns').innerHTML=faqstr;
+
+
+
+
+
+
+const faqqs =document.querySelectorAll('.faqans');
+const arrws =document.querySelectorAll('.arrw');
+
+console.log(faqqs);
+
+panels.forEach((faqqs)=>{
+    console.log(faqqs)
+    faqqs.addEventListener('click',()=>{
+        removeActiveClasses()
+        panel.classList.add('active');
+        panel.classList.remove('hidden');
+
+    })
+})
+function removeActiveClasses(){
+    panels.forEach((panel)=>{
+        panel.classList.remove('active');
+        panel.classList.add('hidden');
+    })
+}
