@@ -140,7 +140,7 @@ for(let i=0; i<faqs.length;i++){
             <span class="faqqns" style="font-size: 25px; font-weight: 500; width: 100%;">${faqs[i].faqQns}</span>
             <i class="fa fa-angle-down col-lg-1" onclick="showans()"></i>
         </div>
-        <p class="hidden" id="faqans">${faqs[i].faqAns}</p>
+        <p class="" id="faqans">${faqs[i].faqAns}</p>
     </div>
     `
 }
