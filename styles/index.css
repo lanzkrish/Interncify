@@ -60,7 +60,6 @@
     .featurecards{
         display: grid;
         grid-template-columns: auto;
-        
         padding: 20px;
         margin: 30px;
         gap: 30px;
@@ -79,6 +78,7 @@
     background-color: #6991ed;
     padding: 30px;
 }
+
 .featurecard:hover{
     background-color: #4f7ce4;
     padding: 30px;
