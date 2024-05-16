@@ -136,11 +136,12 @@ let faqstr=``
 for(let i=0; i<faqs.length;i++){
     faqstr+=`
     <div class="row ">
-        <div class="col-lg-11 ">
+        <div class="col-lg-11 border-bottom faqqnns">
             <span class="faqqns" style="font-size: 25px; font-weight: 500; width: 100%;">${faqs[i].faqQns}</span>
             <i class="fa fa-angle-down col-lg-1" onclick="showans()"></i>
+            <p class="" id="faqans">${faqs[i].faqAns}</p>
         </div>
-        <p class="" id="faqans">${faqs[i].faqAns}</p>
+       
     </div>
     `
 }
@@ -151,23 +152,40 @@ document.getElementById('faqqns').innerHTML=faqstr;
 
 
 
-const faqqs =document.querySelectorAll('.faqans');
-const arrws =document.querySelectorAll('.arrw');
+// const faqqs =document.querySelectorAll('.faqqnns');
+// const arrws =document.querySelectorAll('.arrw');
 
-console.log(faqqs);
+// console.log(faqqs);
 
-panels.forEach((faqqs)=>{
-    console.log(faqqs)
-    faqqs.addEventListener('click',()=>{
+// panels.forEach((faqqs)=>{
+//     console.log(faqqs)
+//     faqqs.addEventListener('click',()=>{
+//         removeActiveClasses()
+//         faqqs.classList.add('active');
+//         faqqs.classList.remove('hidden');
+
+//     })
+// })
+// function removeActiveClasses(){
+//     panels.forEach((panel)=>{
+//         panel.classList.remove('active');
+//         panel.classList.add('hidden');
+//     })
+// }
+
+const panels =document.querySelectorAll('#faqans');
+
+console.log(panels);
+
+panels.forEach((faqans)=>{
+    console.log(faqans)
+    faqans.addEventListener('click',()=>{
         removeActiveClasses()
-        panel.classList.add('active');
-        panel.classList.remove('hidden');
-
+        faqans.classList.add('active')
     })
 })
 function removeActiveClasses(){
-    panels.forEach((panel)=>{
-        panel.classList.remove('active');
-        panel.classList.add('hidden');
+    panels.forEach((faqans)=>{
+        faqans.classList.remove('active')
     })
 }

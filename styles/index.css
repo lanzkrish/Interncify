@@ -112,5 +112,5 @@
     display: none;
 }
 .active{
-    display: visible;
+    visibility: visible;
 }
