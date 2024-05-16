@@ -89,7 +89,11 @@
 .featurecard:hover{
     background-color: #4f7ce4;
     padding: 30px;
+    
+}
+.featurecard:hover svg{
     animation: animate 25s linear infinite;
+    
 }
 
 .hero-aboutheader{
