@@ -16,11 +16,3 @@ body{
 h3{
     font-family: 'Roboto','sans-serif';
 }
-
-.container a span{
-
-}
-a:hover .fly{
-    animation: animate 25s linear infinite;
-    color: red;
-}
