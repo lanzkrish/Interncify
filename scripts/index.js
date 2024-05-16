@@ -78,7 +78,7 @@ featuresection=`<div class="container justify-content-center align-items-center"
 <div class="row">
     <div class="col-lg-12 col-sm-12 p-3">
         <div class="d-flex flex-column justify-content-center text-center ">
-            <p class="text-uppercase">Features</p>
+            <p class="text-uppercase" style="font-size: 35px; font-weight: 600;">Features</p>
             <p>Discover the benefits of our internship program and kickstart your career in the tech industry</p>
         </div>
     </div>
