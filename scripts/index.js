@@ -1,3 +1,5 @@
+// Home Section==================================================================================================================================
+
 home=`<div class="container"> 
 <div class="d-flex p-3 flex-column justify-content-center align-items-center text-center " style="height: 100vh;">
     <div class="heroheader mb-3 ">
@@ -25,6 +27,9 @@ home=`<div class="container">
 </ul>
 </div >`;
 document.getElementById('home').innerHTML=home;
+
+
+// Feature Section   ==================================================================================================================================
 
 
 let features=[
@@ -92,7 +97,7 @@ ${feature}
 document.getElementById('feature').innerHTML = featuresection;
 
 
-
+// About Section  ==================================================================================================================================
 
 about=` <div class="container">
 <div class="d-flex p-3 flex-column justify-content-center align-items-center text-center " style="height: 50vh;">
@@ -101,12 +106,15 @@ about=` <div class="container">
     </div>
     <span class="mb-3 ">Interncify offers unpaid internships to college students and recent graduates, providing them with valuable hands-on experience in the technical field. Our carefully curated programs are designed to help you grow, learn, and thrive in the ever-evolving world of technology. Join us on this journey towards a brighter future!</span>
     <div class="heroheaderliks">
-        <a href="#" class="btn btn-primary me-4">Learn More</a>
+        <a href="404.html" class="btn btn-primary me-4">Learn More</a>
     </div>
 </div>
 </div>`;
 document.getElementById('about').innerHTML=about;
 
+
+
+// FAQ Section  ==================================================================================================================================
 
 
 let faqs=[
@@ -137,55 +145,35 @@ for(let i=0; i<faqs.length;i++){
     faqstr+=`
     <div class="row ">
         <div class="col-lg-11 border-bottom faqqnns">
-            <span class="faqqns" style="font-size: 25px; font-weight: 500; width: 100%;">${faqs[i].faqQns}</span>
-            <i class="fa fa-angle-down col-lg-1" onclick="showans()"></i>
-            <p class="" id="faqans">${faqs[i].faqAns}</p>
+            <span class="faqqns" style="font-size: 25px; font-weight: 500; width: 100vw;">${faqs[i].faqQns}</span>
+            <p class="faqans" id="faqans">${faqs[i].faqAns}</p>
         </div>
        
     </div>
     `
 }
-document.getElementById('faqqns').innerHTML=faqstr;
 
 
-
-
-
-
-// const faqqs =document.querySelectorAll('.faqqnns');
-// const arrws =document.querySelectorAll('.arrw');
-
-// console.log(faqqs);
-
-// panels.forEach((faqqs)=>{
-//     console.log(faqqs)
-//     faqqs.addEventListener('click',()=>{
-//         removeActiveClasses()
-//         faqqs.classList.add('active');
-//         faqqs.classList.remove('hidden');
-
-//     })
-// })
-// function removeActiveClasses(){
-//     panels.forEach((panel)=>{
-//         panel.classList.remove('active');
-//         panel.classList.add('hidden');
-//     })
-// }
-
-const panels =document.querySelectorAll('#faqans');
-
-console.log(panels);
-
-panels.forEach((faqans)=>{
-    console.log(faqans)
-    faqans.addEventListener('click',()=>{
-        removeActiveClasses()
-        faqans.classList.add('active')
-    })
-})
-function removeActiveClasses(){
-    panels.forEach((faqans)=>{
-        faqans.classList.remove('active')
-    })
-}
+faqsectionstr=`
+<div class="container d-flex justify-content-center align-items-center">
+    <div class="row">
+        <div class="col-lg-4 col-sm-6 p-3">
+            <div class="d-flex flex-column justify-content-center text-start ">
+                <p class="text-uppercase">FAQ</p>
+                <span class="faq" style="font-size: 35px; font-weight: 600;">Common questions</span>
+                <p>Here are some of the most common questions that we get.</p>
+            </div>
+        </div>
+        <div class="col-lg-8 col-sm-6 p-3">
+            <div class="d-flex flex-column justify-content-center text-start ">
+                <div class="faqqns" id="faqqns">
+                    ${faqstr}
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</div>
+`
+document.getElementById('faqs').innerHTML=faqsectionstr

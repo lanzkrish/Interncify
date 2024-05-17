@@ -107,10 +107,17 @@
     color: aliceblue;
 
 }
+.faqans{
+    display: none;
+}
+.faqqnns:hover .faqans{
+    display:block;
+
+}
 
 .hidden{
     display: none;
 }
 .active{
-    visibility: visible;
+    display: block;
 }
