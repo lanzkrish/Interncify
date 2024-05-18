@@ -138,6 +138,7 @@ let faqs=[
         faqQns:"How can I apply for an internship at Interncify?",
         faqAns:"To apply for an internship at Interncify, you can visit our website and fill out the online application form. Make sure to submit all required documents and information."
     },
+    
 ]
 
 let faqstr=``
@@ -156,7 +157,7 @@ for(let i=0; i<faqs.length;i++){
 
 faqsectionstr=`
 <div class="container d-flex justify-content-center align-items-center">
-    <div class="row">
+    <div class="row w-100 ">
         <div class="col-lg-4 col-sm-6 p-3">
             <div class="d-flex flex-column justify-content-center text-start ">
                 <p class="text-uppercase">FAQ</p>
@@ -164,7 +165,7 @@ faqsectionstr=`
                 <p>Here are some of the most common questions that we get.</p>
             </div>
         </div>
-        <div class="col-lg-8 col-sm-6 p-3">
+        <div class="col-lg-8 col-sm-6 p-3 ">
             <div class="d-flex flex-column justify-content-center text-start ">
                 <div class="faqqns" id="faqqns">
                     ${faqstr}

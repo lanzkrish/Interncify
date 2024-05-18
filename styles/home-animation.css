@@ -10,18 +10,6 @@ body{
 }
 
 
-.context {
-    width: 100%;
-    position: absolute;
-    top:50vh;
-    
-}
-
-.context h1{
-    text-align: center;
-    color: #fc1515;
-    font-size: 50px;
-}
 
 
 .area{
@@ -30,6 +18,7 @@ body{
     width: 100%;
     /* height:100vh; */
     z-index: -2;
+    
     
    
 }
@@ -43,6 +32,8 @@ body{
     overflow: hidden;
     z-index: -2;
 }
+
+
 
 .circles li{
     position: absolute;

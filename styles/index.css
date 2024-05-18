@@ -10,10 +10,12 @@
   } */
 
 
-
+.home{
+    height: max-content;
+}
 .home .container{
     max-width: 800px;
-    height: 100vh;
+    /* height: 100vh; */
 }
 .home .container>div{
     max-width: 800px;
@@ -57,6 +59,9 @@
 }
 
 @media (max-width: 992px) {
+    .home{
+        height: min-content;
+    }
     .featurecards{
         display: grid;
         grid-template-columns: auto;
@@ -96,7 +101,14 @@
     
 }
 
+.aboutUs{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
 .hero-aboutheader{
+    
     font-family: 'helvetica neue';
     font-weight: 600;
     padding-top: 40px;
@@ -105,6 +117,13 @@
 .faq{
     background-color: #0d6efd;
     color: aliceblue;
+}
+.faq .container{
+    height: max-content;
+    padding: 40px 0 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
 }
 .faqans{
@@ -112,12 +131,4 @@
 }
 .faqqnns:hover .faqans{
     display:block;
-
-}
-
-.hidden{
-    display: none;
-}
-.active{
-    display: block;
 }
