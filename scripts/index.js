@@ -7,25 +7,11 @@ home = `<div class="container">
     </div>
     <span class="mb-3">Empowering Future Tech Leaders</span>
     <div class="heroheaderliks">
-        <a href="#" class="btn btn-primary me-4">Explore Internships</a>
-        <a href="#" class="text-decoration-none">Learn More &nbsp; <i class="fa fa-long-arrow-right" ></i></a>
+        <a href="https://forms.gle/ufnkk7KLsMSxkQZc6" target=_blank class="btn btn-primary me-4">Explore Internships</a>
+        <a href="https://forms.gle/ufnkk7KLsMSxkQZc6" target=_blank class="text-decoration-none">Learn More &nbsp; <i class="fa fa-long-arrow-right" ></i></a>
     </div>
 </div>
-</div>
-<div class="area" >
-<ul class="circles">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-</ul>
-</div >`;
+</div>`;
 document.getElementById("home").innerHTML = home;
 
 // Feature Section   ==================================================================================================================================
@@ -101,7 +87,7 @@ about = ` <div class="container">
     </div>
     <span class="mb-3 ">Interncify offers unpaid internships to college students and recent graduates, providing them with valuable hands-on experience in the technical field. Our carefully curated programs are designed to help you grow, learn, and thrive in the ever-evolving world of technology. Join us on this journey towards a brighter future!</span>
     <div class="heroheaderliks">
-        <a href="404.html" class="btn btn-primary me-4">Learn More</a>
+        <a href="https://forms.gle/ufnkk7KLsMSxkQZc6" target=_blank class="btn btn-primary me-4">Learn More</a>
     </div>
 </div>
 </div>`;
@@ -171,7 +157,7 @@ faqsectionstr = `
             </div>
         <div class="mt-3 w-100">
         <p>Your Query not listed here ??</p>
-        <a href="./404.html" target=_blank class="btn btn-light text-primary fw-bold w-100">ASk Your Question</a>
+        <a href="./views/faq.html" target=_blank class="btn btn-light text-primary fw-bold w-100">ASk Your Question</a>
         </div>
     </div>
 </div>
