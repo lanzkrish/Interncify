@@ -28,7 +28,7 @@ nav=`<nav class="navbar navbar-expand-lg bg-body-tertiary">
     </ul>
     <div>
         <!-- <a href="" class="btn fw-bold">Login</a> -->
-        <a href="https://forms.gle/ufnkk7KLsMSxkQZc6" class="btn btn-primary fw-bold">Register</a>
+        <a href="https://forms.gle/ufnkk7KLsMSxkQZc6" target="_blank" class="btn btn-primary fw-bold">Register</a>
     </div>
     
   </div>
