@@ -157,7 +157,7 @@ faqsectionstr = `
             </div>
         <div class="mt-3 w-100">
         <p>Your Query not listed here ??</p>
-        <a href="forms.html" class="btn btn-light text-primary fw-bold w-100">ASk Your Question</a>
+        <a href="forms.html" class="btn btn-light text-primary fw-bold w-100">Ask Your Question</a>
         </div>
     </div>
 </div>
