@@ -19,9 +19,9 @@ nav=`<nav class="navbar navbar-expand-lg bg-body-tertiary">
       <li class="nav-item">
         <a class="nav-link" href="#faqs">FAQs</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#ourteam">Our Team</a>
-      </li>
+     // <li class="nav-item">
+     //   <a class="nav-link" href="#ourteam">Our Team</a>
+    //  </li>
       <li class="nav-item">
         <a class="nav-link " href="forms.html">Contact us</a>
       </li>
