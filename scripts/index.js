@@ -1,63 +1,45 @@
 // Home Section==================================================================================================================================
 
-home=`<div class="container"> 
+home = `<div class="container"> 
 <div class="d-flex p-3 flex-column justify-content-center align-items-center text-center " style="height: 100vh;">
     <div class="heroheader mb-3 ">
         <h1 >Unlock Your Potential with <span class='text-uppercase text-primary'> Interncify </span></h1>
     </div>
     <span class="mb-3">Empowering Future Tech Leaders</span>
     <div class="heroheaderliks">
-        <a href="#" class="btn btn-primary me-4">Explore Internships</a>
-        <a href="#" class="text-decoration-none">Learn More &nbsp; <i class="fa fa-long-arrow-right" ></i></a>
+        <a href="https://forms.gle/ufnkk7KLsMSxkQZc6" target=_blank class="btn btn-primary me-4">Explore Internships</a>
+        <a href="https://forms.gle/ufnkk7KLsMSxkQZc6" target=_blank class="text-decoration-none">Learn More &nbsp; <i class="fa fa-long-arrow-right" ></i></a>
     </div>
 </div>
-</div>
-<div class="area" >
-<ul class="circles">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-</ul>
-</div >`;
-document.getElementById('home').innerHTML=home;
-
+</div>`;
+document.getElementById("home").innerHTML = home;
 
 // Feature Section   ==================================================================================================================================
 
-
-let features=[
+let features = [
     {
-        featureHead: 'Hands-on Experience',
-        featurebody: 'Gain practical knowledge through real-world projects'
+        featureHead: "Hands-on Experience",
+        featurebody: "Gain practical knowledge through real-world projects",
     },
     {
-        featureHead: 'Mentorship Program',
-        featurebody: 'Receive guidance and support from experienced professionals'
+        featureHead: "Mentorship Program",
+        featurebody: "Receive guidance and support from experienced professionals",
     },
     {
-        featureHead: 'Skill Development',
-        featurebody: 'Enhance your technical skills and expertise in a supportive environment'
+        featureHead: "Skill Development",
+        featurebody:
+            "Enhance your technical skills and expertise in a supportive environment",
     },
     {
-        featureHead: 'Networking Opportunities',
-        featurebody: 'Connect with industry experts and build valuable relationships for your future career'
-    }
+        featureHead: "Networking Opportunities",
+        featurebody:
+            "Connect with industry experts and build valuable relationships for your future career",
+    },
+];
 
-]
-
-
-
-
-let feature='';
-for(let i=0;i<features.length;i++){
-    feature+=`
+let feature = "";
+for (let i = 0; i < features.length; i++) {
+    feature += `
 <div class="featurecard">
     <div class="row">
         <div class="col-1">
@@ -76,10 +58,10 @@ for(let i=0;i<features.length;i++){
             </div>
         </div>
     </div> 
-</div>`
+</div>`;
 }
 
-featuresection=`<div class="container justify-content-center align-items-center">
+featuresection = `<div class="container justify-content-center align-items-center">
 <div class="row">
     <div class="col-lg-12 col-sm-12 p-3">
         <div class="d-flex flex-column justify-content-center text-center ">
@@ -94,56 +76,56 @@ ${feature}
 </div>
 </div>`;
 
-document.getElementById('feature').innerHTML = featuresection;
-
+document.getElementById("feature").innerHTML = featuresection;
 
 // About Section  ==================================================================================================================================
 
-about=` <div class="container">
+about = ` <div class="container">
 <div class="d-flex p-3 flex-column justify-content-center align-items-center text-center " style="height: 50vh;">
     <div class="hero-aboutheader mb-3 ">
         <h1 class="fw-bold" >Welcome to Interncify - Your Gateway to Success</h1>
     </div>
     <span class="mb-3 ">Interncify offers unpaid internships to college students and recent graduates, providing them with valuable hands-on experience in the technical field. Our carefully curated programs are designed to help you grow, learn, and thrive in the ever-evolving world of technology. Join us on this journey towards a brighter future!</span>
     <div class="heroheaderliks">
-        <a href="404.html" class="btn btn-primary me-4">Learn More</a>
+        <a href="https://forms.gle/ufnkk7KLsMSxkQZc6" target=_blank class="btn btn-primary me-4">Learn More</a>
     </div>
 </div>
 </div>`;
-document.getElementById('about').innerHTML=about;
-
-
+document.getElementById("about").innerHTML = about;
 
 // FAQ Section  ==================================================================================================================================
 
+let faqs = [
+    {
+        faqQns: "What is Interncify?",
+        faqAns:
+            "Interncify is a software company that provides unpaid internships to college students and recent graduates to help them gain experience and knowledge in the technical field.",
+    },
+    {
+        faqQns: "Who can apply for internships at Interncify?",
+        faqAns:
+            "College students and recent graduates who are looking to gain practical experience in the technical field can apply for internships at Interncify.",
+    },
+    {
+        faqQns: "Are Interncify internships paid?",
+        faqAns:
+            "No, Interncify internships are unpaid. However, they provide valuable hands-on experience and learning opportunities.",
+    },
+    {
+        faqQns: "How long do Interncify internships last?",
+        faqAns:
+            "The duration of Interncify internships varies depending on the specific program. Typically, internships last for a few months.",
+    },
+    {
+        faqQns: "How can I apply for an internship at Interncify?",
+        faqAns:
+            "To apply for an internship at Interncify, you can visit our website and fill out the online application form. Make sure to submit all required documents and information.",
+    },
+];
 
-let faqs=[
-    {
-        faqQns:"What is Interncify?",
-        faqAns:"Interncify is a software company that provides unpaid internships to college students and recent graduates to help them gain experience and knowledge in the technical field."
-    },
-    {
-        faqQns:"Who can apply for internships at Interncify?",
-        faqAns:"College students and recent graduates who are looking to gain practical experience in the technical field can apply for internships at Interncify."
-    },
-    {
-        faqQns:"Are Interncify internships paid?",
-        faqAns:"No, Interncify internships are unpaid. However, they provide valuable hands-on experience and learning opportunities."
-    },
-    {
-        faqQns:"How long do Interncify internships last?",
-        faqAns:"The duration of Interncify internships varies depending on the specific program. Typically, internships last for a few months."
-    },
-    {
-        faqQns:"How can I apply for an internship at Interncify?",
-        faqAns:"To apply for an internship at Interncify, you can visit our website and fill out the online application form. Make sure to submit all required documents and information."
-    },
-    
-]
-
-let faqstr=``
-for(let i=0; i<faqs.length;i++){
-    faqstr+=`
+let faqstr = ``;
+for (let i = 0; i < faqs.length; i++) {
+    faqstr += `
     <div class="row ">
         <div class="col-lg-11 border-bottom faqqnns">
             <span class="faqqns" style="font-size: 25px; font-weight: 500; width: 100vw;">${faqs[i].faqQns}</span>
@@ -151,30 +133,33 @@ for(let i=0; i<faqs.length;i++){
         </div>
        
     </div>
-    `
+    `;
 }
 
-
-faqsectionstr=`
+faqsectionstr = `
 <div class="container d-flex justify-content-center align-items-center">
     <div class="row w-100 ">
-        <div class="col-lg-4 col-sm-6 p-3">
-            <div class="d-flex flex-column justify-content-center text-start ">
-                <p class="text-uppercase">FAQ</p>
-                <span class="faq" style="font-size: 35px; font-weight: 600;">Common questions</span>
-                <p>Here are some of the most common questions that we get.</p>
+            <div class="col-lg-4 col-sm-6 p-3">
+                <div class="d-flex flex-column justify-content-center text-start ">
+                    <p class="text-uppercase">FAQ</p>
+                    <span class="faq" style="font-size: 35px; font-weight: 600;">Common questions</span>
+                    <p>Here are some of the most common questions that we get.</p>
+                </div>
+                <!-- <p>Your Query not listed here</p>
+                <a href="./404.html" target=_blank class="btn btn-light text-primary fw-bold">ASk Your Question</a> -->
             </div>
-        </div>
-        <div class="col-lg-8 col-sm-6 p-3 ">
-            <div class="d-flex flex-column justify-content-center text-start ">
-                <div class="faqqns" id="faqqns">
-                    ${faqstr}
+            <div class="col-lg-8 col-sm-6 p-3 ">
+                <div class="d-flex flex-column justify-content-center text-start ">
+                    <div class="faqqns" id="faqqns">
+                        ${faqstr}
+                    </div>
                 </div>
             </div>
+        <div class="mt-3 w-100">
+        <p>Your Query not listed here ??</p>
+        <a href="forms.html" class="btn btn-light text-primary fw-bold w-100">Ask Your Question</a>
         </div>
     </div>
-    </div>
-    </div>
 </div>
-`
-document.getElementById('faqs').innerHTML=faqsectionstr
+`;
+document.getElementById("faqs").innerHTML = faqsectionstr;

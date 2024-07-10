@@ -19,16 +19,14 @@ nav=`<nav class="navbar navbar-expand-lg bg-body-tertiary">
       <li class="nav-item">
         <a class="nav-link" href="#faqs">FAQs</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#ourteam">Our Team</a>
-      </li>
+
       <li class="nav-item">
         <a class="nav-link " href="forms.html">Contact us</a>
       </li>
     </ul>
     <div>
-        <a href="" class="btn fw-bold">Login</a>
-        <a href="" class="btn btn-primary fw-bold">Register</a>
+        <!-- <a href="" class="btn fw-bold">Login</a> -->
+        <a href="https://forms.gle/ufnkk7KLsMSxkQZc6" target="_blank" class="btn btn-primary fw-bold">Register</a>
     </div>
     
   </div>
