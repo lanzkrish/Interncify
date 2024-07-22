@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="87.365662mm"
+   height="87.365646mm"
+   viewBox="0 0 87.365662 87.365646"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(-450.50477,-136.15121)">
+    <rect
+       style="opacity:0.99;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.562624;stroke-linejoin:bevel"
+       id="rect181"
+       width="87.365646"
+       height="87.365646"
+       x="-537.87042"
+       y="136.1512"
+       transform="scale(-1,1)"
+       ry="9.728611" />
+    <path
+       id="path181"
+       style="opacity:0.99;fill:#0d6efd;fill-opacity:1;stroke:none;stroke-width:0.0913687;stroke-linejoin:bevel"
+       d="m 500.32649,107.3537 0,20.83191 a 3,3 45 0 0 3,3 h 9.00012 a 3,3 135 0 0 3,-3 l 0,-5.83179 a 3,3 135 0 1 3,-3 h 6.55745 a 3,3 135 0 0 3,-3 v -9.00012 a 3,3 45 0 0 -3,-3 h -21.55757 a 3,3 135 0 0 -3,3 z"
+       transform="matrix(-0.4160269,0,0,0.4160269,711.69743,107.9853)" />
+    <path
+       id="path182"
+       style="opacity:0.99;fill:#0d6efd;fill-opacity:1;stroke:none;stroke-width:0.0913687;stroke-linejoin:bevel"
+       d="m 537.11942,97.937766 -6.08558,6.085584 a 2.4142741,2.4142741 112.5005 0 0 -0.70713,1.70711 l -4.5e-4,25.45515 a 3.000053,3.000053 135.00051 0 1 -3.00005,3 h -23.99972 a 3,3 135 0 0 -3,3 v 96.0003 a 3,3 45 0 0 3,3 l 8.9996,0 a 3.0000179,3.0000179 135.00017 0 0 3.00002,-3 l 4.8e-4,-81.00018 a 3.0000179,3.0000179 135.00017 0 1 3.00002,-3 h 23.99972 a 3,3 135 0 0 3,-3 v -40.45527 a 2.4142138,2.4142138 67.500002 0 0 -0.70711,-1.70711 l -6.08558,-6.085584 a 0.99999987,0.99999987 0 0 0 -1.41422,0 z"
+       transform="matrix(-0.4160269,0,0,0.4160269,711.69743,107.9853)" />
+    <path
+       id="path183"
+       style="opacity:0.99;fill:#0d6efd;fill-opacity:1;stroke:none;stroke-width:0.0913687;stroke-linejoin:bevel"
+       d="m 530.32621,155.06659 v 81.11933 a 3,3 135 0 1 -3,3 h -23.99972 a 3,3 135 0 0 -3,3 v 9.00012 a 3,3 45 0 0 3,3 h 38.99984 a 3,3 135 0 0 3,-3 v -96.11945 a 3,3 45 0 0 -3,-3 h -9.00012 a 3,3 135 0 0 -3,3 z"
+       transform="matrix(-0.4160269,0,0,0.4160269,711.69743,107.9853)" />
+  </g>
+</svg>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="87.365631mm"
+   height="87.365646mm"
+   viewBox="0 0 87.365631 87.365646"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="interncify.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="1346.3313"
+     inkscape:cy="213.54625"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect163"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,3,0,1 @ F,0,0,1,0,3,0,1 @ F,0,0,1,0,3,0,1 @ F,0,0,1,0,3,0,1 @ F,0,0,1,0,3,0,1 @ F,0,0,1,0,3,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect161"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,1,0,1 @ F,0,0,1,0,1,0,1 @ F,0,0,1,0,3,0,1 @ F,0,0,1,0,3,0,1 @ F,0,0,1,0,3,0,1 @ F,0,0,1,0,3,0,1 @ F,0,0,1,0,3,0,1 @ F,0,0,1,0,3,0,1 @ F,0,0,1,0,1,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect159"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,3,0,1 @ F,0,0,1,0,3,0,1 @ F,0,0,1,0,3,0,1 @ F,0,0,1,0,3,0,1 @ F,0,0,1,0,3,0,1 @ F,0,0,1,0,3,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-347.23185,-136.15121)">
+    <rect
+       style="opacity:0.99;fill:#0d6efd;fill-opacity:1;stroke:none;stroke-width:0.562624;stroke-linejoin:bevel"
+       id="rect156"
+       width="87.365646"
+       height="87.365646"
+       x="-434.59747"
+       y="136.1512"
+       transform="scale(-1,1)"
+       ry="9.728611"
+       inkscape:export-filename="interncify logo 22 july 24.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       id="path156"
+       style="opacity:0.99;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0913687;stroke-linejoin:bevel"
+       d="m 500.32649,107.3537 0,20.83191 a 3,3 45 0 0 3,3 h 9.00012 a 3,3 135 0 0 3,-3 l 0,-5.83179 a 3,3 135 0 1 3,-3 h 6.55745 a 3,3 135 0 0 3,-3 v -9.00012 a 3,3 45 0 0 -3,-3 h -21.55757 a 3,3 135 0 0 -3,3 z"
+       sodipodi:nodetypes="ccccccc"
+       transform="matrix(-0.4160269,0,0,0.4160269,608.42449,107.9853)"
+       inkscape:original-d="m 500.32649,104.3537 v 26.83191 h 15.00012 v -11.83179 h 12.55745 V 104.3537 Z"
+       inkscape:path-effect="#path-effect159" />
+    <path
+       id="path157"
+       style="opacity:0.99;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0913687;stroke-linejoin:bevel"
+       d="m 537.11942,97.937766 -6.08558,6.085584 a 2.4142741,2.4142741 112.5005 0 0 -0.70713,1.70711 l -4.5e-4,25.45515 a 3.000053,3.000053 135.00051 0 1 -3.00005,3 h -23.99972 a 3,3 135 0 0 -3,3 v 96.0003 a 3,3 45 0 0 3,3 l 8.9996,0 a 3.0000179,3.0000179 135.00017 0 0 3.00002,-3 l 4.8e-4,-81.00018 a 3.0000179,3.0000179 135.00017 0 1 3.00002,-3 h 23.99972 a 3,3 135 0 0 3,-3 v -40.45527 a 2.4142138,2.4142138 67.500002 0 0 -0.70711,-1.70711 l -6.08558,-6.085584 a 0.99999987,0.99999987 0 0 0 -1.41422,0 z"
+       sodipodi:nodetypes="cccccccccc"
+       transform="matrix(-0.4160269,0,0,0.4160269,608.42449,107.9853)"
+       inkscape:export-filename="..\OneDrive\Desktop\interncify final\path34.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:original-d="m 537.82653,97.230659 -7.4998,7.499801 -5.2e-4,29.45515 h -29.99972 v 102.0003 h 14.9996 l 5.2e-4,-87.00018 h 29.99972 v -44.45527 z"
+       inkscape:path-effect="#path-effect161" />
+    <path
+       id="path158"
+       style="opacity:0.99;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0913687;stroke-linejoin:bevel"
+       d="m 530.32621,155.06659 v 81.11933 a 3,3 135 0 1 -3,3 h -23.99972 a 3,3 135 0 0 -3,3 v 9.00012 a 3,3 45 0 0 3,3 h 38.99984 a 3,3 135 0 0 3,-3 v -96.11945 a 3,3 45 0 0 -3,-3 h -9.00012 a 3,3 135 0 0 -3,3 z"
+       sodipodi:nodetypes="ccccccc"
+       transform="matrix(-0.4160269,0,0,0.4160269,608.42449,107.9853)"
+       inkscape:original-d="m 530.32621,152.06659 v 87.11933 h -29.99972 v 15.00012 h 44.99984 V 152.06659 Z"
+       inkscape:path-effect="#path-effect163" />
+  </g>
+</svg>

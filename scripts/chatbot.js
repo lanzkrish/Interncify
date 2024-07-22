@@ -6,12 +6,12 @@ Typebot.initBubble({
   previewMessage: {
     message: "Hey, Whatsup!",
     autoShowDelay: 4000,
-    avatarUrl: "https://interncify.com/assets/interncify_logo_1.png",
+    avatarUrl: "https://interncify.com/assets/public/interncify_logo_white.svg",
   },
   theme: {
     button: {
       backgroundColor: "#fff",
-      customIconSrc: "https://interncify.com/assets/interncify_logo_1.png",
+      customIconSrc: "https://interncify.com/assets/public/interncify_logo_blue.svg",
     },
     previewMessage: {
       closeButtonBackgroundColor: "#0d6efd",
