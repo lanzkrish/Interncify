@@ -40,7 +40,7 @@ let features = [
 let feature = "";
 for (let i = 0; i < features.length; i++) {
     feature += `
-<div class="featurecard">
+<div class="featurecard rounded-4">
     <div class="row">
         <div class="col-1">
             <svg viewBox="0 0 1024 1024" class="featuresIcon" style="color: aliceblue;">
@@ -157,7 +157,7 @@ faqsectionstr = `
             </div>
         <div class="mt-3 w-100">
         <p>Your Query not listed here ??</p>
-        <a href="forms.html" class="btn btn-light text-primary fw-bold w-100">Ask Your Question</a>
+        <a href="contact.html" class="btn btn-light text-primary fw-bold w-100">Ask Your Question</a>
         </div>
     </div>
 </div>

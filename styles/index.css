@@ -39,10 +39,11 @@
 }
 
 .featuresIcon{
-    fill: aliceblue;
+    fill: #0d6efd;
     width: 28px;
     height: 28px;
 }
+
 
 .grid{
     display: grid;
@@ -72,13 +73,14 @@
     .feature{
         
         height: min-content;
-        color:aliceblue;
+        /* color: #4f7ce4; */
         justify-content: center;
         align-items: center;
         display: flex;
     }
     .featurecard svg{
         padding-right: 10px;
+        /* color: #4f7ce4 !important; */
     }
     .aboutUs{
         height: min-content;
@@ -87,17 +89,20 @@
 }
 
 .featurecard{
-    background-color: #6991ed;
+    background-color: #ffffff;
+    color: #4f7ce4;
     padding: 30px;
 }
 
 .featurecard:hover{
     background-color: #4f7ce4;
+    color: #ffffff;
     padding: 30px;
     
 }
 .featurecard:hover svg{
     animation: animate 25s linear infinite;
+    fill: #fff;
     
 }
 
