@@ -15,7 +15,9 @@ body{
     padding: 0;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
+    overflow-x: hidden;
 }
+
 
 .cursive{
     font-family: "Instrument Serif", serif;
@@ -25,6 +27,7 @@ body{
 .hero{
     width: 70%;
 }
+
 .heading{
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -119,6 +122,7 @@ section{
     position: absolute;
     z-index: -2;
     bottom: 10px !important;
+    /* left: 10px; */
     overflow: hidden;
     filter: blur(30px);
 
@@ -259,7 +263,10 @@ ul{
     text-align: start;
 }
 
-@media (max-width: 768px) {
+@media(max-width: 991px){
+    /* .container{
+        height: fit-content;
+    } */
     .pricing-card {
         background: transparent;
         border-radius: 10px;
@@ -276,6 +283,23 @@ ul{
 }
 
 @media (max-width: 768px) {
+    .pricing-card {
+        background: transparent;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        /* box-shadow: rgba(255, 255, 255, 0.173) 0px 7px 29px 0px; */
+        border: 1px solid rgba(44, 44, 44, 0.169);
+        padding: 20px;
+        margin: 10px;
+        width: 100%;
+        min-width: 250px;
+        text-align: center;
+        overflow: hidden;
+    }
+}
+
+
+@media (max-width: 768px) {
     .hero{
         width: 100%;
     }
@@ -288,7 +312,10 @@ ul{
      .band{
       margin: 0px 0px;
       height: fit-content;
-  }
+    }
+    .pricing .container{
+        margin: 30px 10px !important;
+    }
 }
 @media (max-width: 425px) {
   
