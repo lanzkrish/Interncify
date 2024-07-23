@@ -8,22 +8,16 @@ nav=`<nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+        <a class="nav-link" aria-current="page" href="./index.html">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#feature">Features</a>
+        <a class="nav-link active" href="#">Courses</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="./courses.html">Courses</a>
+        <a class="nav-link" href="#pricing">Pricing</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#about">About Us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#faqs">FAQs</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link " href="contact.html">Contact us</a>
+        <a class="nav-link " href="./contact.html">Contact us</a>
       </li>
     </ul>
     <div>

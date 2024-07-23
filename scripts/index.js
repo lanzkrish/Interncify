@@ -163,3 +163,4 @@ faqsectionstr = `
 </div>
 `;
 document.getElementById("faqs").innerHTML = faqsectionstr;
+

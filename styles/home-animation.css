@@ -16,6 +16,7 @@ body{
     /* background: #0d6efd;   */
     background: -webkit-linear-gradient(to left, #0d6efd, #0011ff);  
     width: 100%;
+    /* height: auto; */
     /* height:100vh; */
     z-index: -2;
     
