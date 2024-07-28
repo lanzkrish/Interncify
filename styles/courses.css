@@ -152,7 +152,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
     color: #1e1e1e;
-    /* box-shadow: rgb(255, 255, 255) 0px 7px 29px 0px; */
+    /* x-shadow: rgb(255, 255, 255) 0px 7px 29px 0px; */
 }
 .pricing{
     display: flex;
@@ -197,11 +197,14 @@ body {
     margin-bottom: 20px;
 }
 .card{
-    height: 200px;
+    height: auto;
     height: 200px;
     width: 30%;
     border: 1px solid black;
-    filter: blur(30px);
+    backdrop-filter: blur(30px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .bold{
     font-weight: 400;
