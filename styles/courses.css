@@ -319,6 +319,16 @@ ul{
     .pricing .container{
         margin: 30px 10px !important;
     }
+    .card{
+        height: auto;
+        height: 200px;
+        width: 30%;
+        border: 1px solid black;
+        backdrop-filter: blur(30px);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: cover;
+    }
 }
 @media (max-width: 425px) {
   
