@@ -7,6 +7,10 @@
 .nav-link{
     font-weight: 400;
 }
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--scroll-padding, 50px);
+}
 
 body{
     background-color: rgb(10, 10, 10);
