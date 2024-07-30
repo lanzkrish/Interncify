@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./styles/loading.css">
     <link rel="stylesheet" href="./styles/contact.css">
     <link rel="stylesheet" href="./styles/index.css">
-    <link rel="stylesheet" href="./styles/cursor.css">
+    <!-- <link rel="stylesheet" href="./styles/cursor.css"> -->
 
     <title>form contact us</title>
     <link rel="shortcut icon" href="./assets/public/interncify_logo_white.svg" type="image/x-icon">
@@ -25,7 +25,7 @@
 
     
       <div class="d-flex align-items-center justify-content-center bg-body mt-5">
-        <div class="container m-auto ">
+        <!-- <div class="container m-auto ">
           <div class="d-flex flex-column justify-content-center align-items-center bg-body-secondary rounded-4 mt-5 p-5">
             <div class="text-center">
               <h1 class="my-3 text-3xl font-semibold text-gray-700 dark:text-gray-200">
@@ -116,7 +116,13 @@
             </div>
             
           </div>
+        </div> -->
+      
+
+        <div class="container m-auto">
+          <iframe id="gform" style="height: 250vh; width: 100vw;" src="https://docs.google.com/forms/d/e/1FAIpQLSfz2giZFjVKmbFxHlc9mS6LNfkKXRF3FMdi52VLe1Cn2bgy7Q/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
+      
       </div>
       <div class="circle"></div>
       <div class="cursor"></div>
@@ -127,5 +133,21 @@
         <script src="./scripts/loadingscreen.js"></script></body>
         <script src="./scripts/forms.js"></script>
         <script src="./scripts/contact.js"></script>
+        <script type="text/javascript">
+          var load = 0;
+          
+          document.getElementById('gform').onload = function(){
+              /*Execute on every reload on iFrame*/
+              load++;
+              if(load >1){
+                // window.scrollTo(1, document.body.scrollHeight);
+                $("html, body").animate({ scrollTop: 0 }, 1);
+              }
+              if(load > 2){
+                  /*Second reload is a submit*/
+                  document.location = "https://www.interncify.com";
+              }
+          }
+          </script>
     </body>
 </html>

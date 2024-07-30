@@ -8,7 +8,7 @@ home = `<div class="container">
     <span class="mb-3">Empowering Future Tech Leaders</span>
     <div class="heroheaderliks">
         <a href="./courses.html" target=_blank class="btn btn-primary me-4">Explore Internships</a>
-        <a href="https://forms.gle/ufnkk7KLsMSxkQZc6" target=_blank class="text-decoration-none">Learn More &nbsp; <i class="fa fa-long-arrow-right" ></i></a>
+        <a href="./registration.html" target=_blank class="text-decoration-none">Learn More &nbsp; <i class="fa fa-long-arrow-right" ></i></a>
     </div>
 </div>
 </div>`;
