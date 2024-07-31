@@ -270,12 +270,37 @@ ul{
     text-align: start;
 }
 
+.earlyBird{
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    transform: rotate(48deg);
+    position:relative;
+
+    top:1.5rem;
+    left: 7rem;
+}
+.pricing-card .earlyBird .offer-end{
+    display: none;
+}
+
+.pricing-card:hover .earlyBird .offer-text{
+    display: none;
+    /* transform: rotate(180deg); */
+}
+.pricing-card:hover .earlyBird .offer-end{
+    display: inline;
+    font-size: 12px;
+    /* transform: rotate(180deg); */
+}
+
+
+
 @media(max-width: 991px){
     /* .container{
         height: fit-content;
     } */
     .pricing-card {
-        background: transparent;
+        background: #0d6dfd2d;;
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         /* box-shadow: rgba(255, 255, 255, 0.173) 0px 7px 29px 0px; */
@@ -291,7 +316,7 @@ ul{
 
 @media (max-width: 768px) {
     .pricing-card {
-        background: transparent;
+        background: #0d6dfd2d;;
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         /* box-shadow: rgba(255, 255, 255, 0.173) 0px 7px 29px 0px; */
@@ -332,6 +357,7 @@ ul{
         background-repeat: no-repeat;
         background-position: left;
         background-size: cover;
+        overflow: hidden;
     }
 }
 @media (max-width: 425px) {
