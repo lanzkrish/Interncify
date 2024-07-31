@@ -87,7 +87,7 @@ about = ` <div class="container">
     </div>
     <span class="mb-3 ">Interncify offers unpaid internships to college students and recent graduates, providing them with valuable hands-on experience in the technical field. Our carefully curated programs are designed to help you grow, learn, and thrive in the ever-evolving world of technology. Join us on this journey towards a brighter future!</span>
     <div class="heroheaderliks">
-        <a href="https://forms.gle/ufnkk7KLsMSxkQZc6" target=_blank class="btn btn-primary me-4">Learn More</a>
+        <a href="./courses.html" target=_blank class="btn btn-primary me-4">Learn More</a>
     </div>
 </div>
 </div>`;
