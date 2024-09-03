@@ -5,52 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="shortcut icon" href="./assets/public/interncify_logo_white.png" type="image/x-icon">
-    <style>
-        h1{
-            font-family: 'Courier New', Courier, monospace;
-            text-align: center;
-        }
-        .container{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-        }
-        .container button{
-            height: 30px;
-            font-size: 1rem;
-            padding: 7px 15px;
-            border-radius: 5px;
-            border: none;
-            background-color: #0d6efd;
-            color: aliceblue;
-        }
-        a{
-            color: aliceblue;
-        }
-    </style>
+    <link rel="stylesheet" href="./styles/policy.css">
 </head>
 <body>
 
-    <div class="container">
+    <div class="heading">
         <img src="./assets/public/interncify_logo_blue.png" height="50px" alt="interncify logo">
         <h1>Refund and Cancellation</h1>
         <button>
            <a href="./"> HOME</a>
         </button>
     </div>
-    <div id="viewer" style="width: 100%; height: 92vh;"></div>
+    <hr>
+    <div class="container">
+        <h1>Refund and Cancellation Policy</h1>
+        <p>Last updated: September 03, 2024</p>
 
-    <script type="text/javascript" src="https://cloudpdf.io/viewer.min.js"></script>
-    <script>
-      const config = { 
-        documentId: '27c463d4-5e3a-420d-a513-9388de6131d2',
-        appBarColored: true,
-        themecolor: '#0d6efd',
-        darkMode: true, 
-      };
-      CloudPDF(config, document.getElementById('viewer')).then((instance) => {
-        
-      });
-    </script>
+        <p>Please read this Refund and Cancellation policy carefully before using Our Service.</p>
+
+        <p>At Interncify, our goal is to ensure that our programs and services meet your expectations. We strive to provide high-quality training, internship opportunities, and educational resources. However, due to the nature of our services, we have a strict refund and cancellation policy.</p>
+
+        <h2>1. No Refunds</h2>
+        <p>Once payment is made for any of our services, including training programs, internships, or other educational resources, it is non-refundable. Please review all details and requirements carefully before making a payment.</p>
+
+        <h2>2. Program Cancellation</h2>
+        <p>If Interncify cancels a program, participants will be notified as soon as possible, and alternative arrangements may be offered. However, in the case of such cancellation, a refund will be issued.</p>
+
+        <h2>3. Changes to Programs</h2>
+        <p>Interncify reserves the right to make changes to programs, schedules, or content as needed. These changes do not entitle participants to a refund or cancellation.</p>
+
+        <h2>4. Contact Information</h2>
+        <p>For any questions or concerns regarding our refund and cancellation policy, please contact us at:</p>
+        <ul>
+            <li>Email: <a href="mailto:contact@interncify.com">contact@interncify.com</a></li>
+            <li>Address: Rasulgarh, Bhubaneswar</li>
+        </ul>
+
+        <p>We encourage you to reach out if you have any questions about our policies before making a payment.</p>
+    </div>
 </body>
 </html>
