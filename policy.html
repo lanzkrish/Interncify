@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="./assets/public/interncify_logo_white.png" type="image/x-icon">
+    <style>
+        h1{
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+        }
+        .container{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .container button{
+            height: 30px;
+            font-size: 1rem;
+            padding: 7px 15px;
+            border-radius: 5px;
+            border: none;
+            background-color: #0d6efd;
+            color: aliceblue;
+        }
+        a{
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="./assets/public/interncify_logo_blue.png" height="50px" alt="interncify logo">
+        <h1>Privacy and Policy</h1>
+        <button>
+           <a href="./">HOME</a>
+        </button>
+    </div>
+    <div id="viewer" style="width: 100%; height: 92vh;"></div>
+
+    <script type="text/javascript" src="https://cloudpdf.io/viewer.min.js"></script>
+    <script>
+      const config = { 
+        documentId: 'dbceeab6-8214-42f1-9526-f18175f60771',
+        appBarColored: true,
+        themecolor: '#0d6efd',
+        darkMode: true, 
+      };
+      CloudPDF(config, document.getElementById('viewer')).then((instance) => {
+        
+      });
+    </script>
+</body>
+</html>
