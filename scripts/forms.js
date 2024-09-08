@@ -1,17 +1,12 @@
-formnav=`<nav class="navbar navbar-expand-lg bg-body-tertiary">
+formnav=`<nav class="navbar navbar-expand-lg bg-white border-bottom">
 <div class="container">
-  <a class="navbar-brand" href="../"><img height="40px" src="../assets/public/interncify_logo_blue.svg" alt=""></a>
+  <a class="navbar-brand" href="./"><img height="40px" src="./assets/public/logo-interncify.png" alt=""></a>
 
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="./">Home</a>
-      </li>
-    
-  </div>
+  
+  <div>
+        <!-- <a href="" class="btn fw-bold">Login</a> -->
+        <a href="./" class="btn btn-primary fw-bold">Home</a>
+    </div>
 </div>
 </nav>`
 

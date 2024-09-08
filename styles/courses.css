@@ -33,9 +33,10 @@ body{
 }
 
 .heading{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 54px;
+    font-family: "helvetica", sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    text-align: center;
 }
 .hero-box span{
     font-family: "Montserrat", sans-serif;
@@ -66,8 +67,9 @@ body{
     outline: solid 5px #0d6dfd7d;
 }
 section{
-    height: 100vh;
+    height: 30vh;
 }
+/* }
 .box{
     height: 30%;
     width: 30%;
@@ -88,7 +90,7 @@ section{
     background-color: rgb(85, 0, 164);
     background-image: conic-gradient(from 0deg at 50% 50%,#ffd9ad 0deg,#139ce5 180deg,#fd864d 360deg);
     border-radius: 50%;
-}
+} */
 .square{
 
     position: absolute;
@@ -192,6 +194,9 @@ body {
     text-align: center;
     overflow: hidden;
 }
+.pricing-card:hover{
+    background-color: #0d6dfd75;
+}
 .pricing-card h3 {
     font-size: 24px;
     margin-bottom: 20px;
@@ -239,32 +244,6 @@ body {
 }
 .btn:hover {
     background-color: #0d6efd;
-}
-
-
-.bagrcard {
-    position: relative;
-}
-.cube{
-    height: 250px;
-    width: 250px;
-    background-color: #0d6efd;
-    background-image: conic-gradient(from 0deg at 50% 50%,#ff0000 0deg,hsl(354,100%,50%) 54.89161972682219deg,#00a6ff 106.69924423399361deg,#4797ff 162deg,#04f 252.00000000000003deg,#ff8000 306.00000000000006deg,hsl(0,100%,50%) 360deg);
-    border-radius: 50%;
-    transform: rotate(-90deg);
-    filter: blur(70px);
-    position: absolute !important;
-    top: -10% !important;
-    right: -10%;
-    /* z-index: -2; */
-    transition: all 1s ease-in-out;
-    /* opacity: 0.6; */
-
-
-}
-
-.pricing-card:hover .cube{
-    transform: rotate(180deg);
 }
 
 ul{

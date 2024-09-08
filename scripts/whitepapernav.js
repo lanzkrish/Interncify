@@ -1,5 +1,5 @@
-nav=`<nav class="navbar navbar-expand-lg bg-white">
-<div class="container">
+nav=`<nav class="navbar navbar-expand-lg bg-white border-bottom">
+<div class="container d-flex justify-content-between">
   <a class="navbar-brand" href="#"><img height="40px" src="./assets/public/logo-interncify.png" alt=""></a>
 
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,16 +11,17 @@ nav=`<nav class="navbar navbar-expand-lg bg-white">
         <a class="nav-link" aria-current="page" href="./index.html">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="#">Courses</a>
+        <a class="nav-link" href="#feature">Features</a>
       </li>
       <li class="nav-item">
-      <a class="nav-link" href="./whitepaper.html">White Paper</a>
-    </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#pricing">Pricing</a>
+        <a class="nav-link" href="./courses.html">Courses</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="./contact.html">Contact us</a>
+        <a class="nav-link active" href="./whitepaper.html">White Paper</a>
+      </li>
+     
+      <li class="nav-item">
+        <a class="nav-link " href="contact.html">Contact us</a>
       </li>
     </ul>
     <div>
