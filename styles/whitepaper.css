@@ -43,3 +43,22 @@ a:hover h6{
     color: black;
     font-weight: 500;
 }
+
+@media (max-width: 767px){
+    .header-image{
+        flex-direction: column;
+        text-align:start ;
+    }
+    .publication-images img{
+        display: none;
+    }
+    .publication-heading{
+        max-width: fit-content;
+    }
+    .publication-heading h1{
+        font-size: 3rem;
+    }
+    .paper{
+    margin: 0 !important;
+  }
+}

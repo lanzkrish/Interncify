@@ -47,7 +47,7 @@ for (let i = 0; i < features.length; i++) {
 <div class="featurecard card rounded-4">
     <div class="row">
         <div class="col-12">
-            icon
+            
         </div>
         <div class="col-12">
             <div class="feature-card-text">
