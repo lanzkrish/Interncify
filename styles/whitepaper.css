@@ -20,6 +20,7 @@
 
 .publication{
     margin-top: 7rem;
+    max-width: 100vw;
 }
 h6{
     font-size: 1.2rem;
@@ -60,5 +61,6 @@ a:hover h6{
     }
     .paper{
     margin: 0 !important;
+    max-width: 100vw !important;
   }
 }
