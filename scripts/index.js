@@ -23,7 +23,7 @@ document.getElementById("home").innerHTML = home;
 let features = [
     {
         featureHead: "Gain the Edge",
-        featurebody: "Internships tailored to your passion. Build skills, grow your network, and unlock doors to your dream career.",
+        featurebody: "Training programs tailored to your passion. Build skills, grow your network, and unlock doors to your dream career.",
     },
     {
         featureHead: "Real-World Experience",
@@ -32,7 +32,7 @@ let features = [
     {
         featureHead: "Tailored to you",
         featurebody:
-            "Internships that match your ambitions, weather you're in tech, business, design, or the arts.",
+            "Programs that match your ambitions, weather you're in tech, business, design, or the arts.",
     },
     {
         featureHead: "White Papers",
