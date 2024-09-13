@@ -5,7 +5,7 @@ let home = `<div class="container">
     <div class="heroheader ">
         <h2 >Unlock Your Future with <span class=' text-primary ' > Real-World Experience </span></h2>
     </div>
-    <span class="mb-3">Bridge the gad between Education and the workforce. Discover oppertunities that shape your career</span>
+    <span class="mb-3">Bridge the gap between Education and the workforce. Discover oppertunities that shape your career</span>
     <div class="heroheaderliks">
         <a href="#cta"  class="btn btn-primary me-4">Get Started</a>
         <a href="./contact.html" target=_blank class="text-decoration-none">Learn More &nbsp; <i class="fa fa-long-arrow-right" ></i></a>
