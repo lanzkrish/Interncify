@@ -1,6 +1,9 @@
 .header-image{
     /* margin-top: 20rem; */
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(../assets/images/wpbg/wpbg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 40rem;
     color: #FFF;
     display: flex;
