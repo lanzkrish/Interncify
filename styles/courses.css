@@ -269,12 +269,14 @@ ul{
     /* transform: rotate(180deg); */
 }
 .pricing-card:hover .earlyBird .offer-end{
-    display: inline;
+    display: none;
     font-size: 12px;
     /* transform: rotate(180deg); */
 }
 
-
+footer .socials a{
+    color: #0d6efd;
+}
 
 @media(max-width: 991px){
     /* .container{
@@ -361,4 +363,8 @@ ul{
      .hero-box p{
         font-size: 5px;
      }
+}
+
+.offer-end , .offer-text{
+    display: none;
 }
