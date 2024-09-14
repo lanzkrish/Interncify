@@ -4,6 +4,8 @@
     background-image: url(../assets/images/wpbg/wpbg1.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
     height: 40rem;
     color: #FFF;
     display: flex;
@@ -70,12 +72,19 @@ a:hover h6{
         margin: 0 !important;
         max-width: 100vw !important;
       }
+      .publication-heading h1{
+        font-size: 4rem;
+        font-weight: 400;
+    }
 }
 
 @media (max-width: 767px){
     .header-image{
         flex-direction: column;
         text-align:start ;
+        background-position: right;
+        height: max-content;
+        padding-top: 10rem;
     }
     .publication-images img{
         display: none;
