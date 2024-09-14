@@ -283,7 +283,7 @@ footer .socials a{
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         /* box-shadow: rgba(255, 255, 255, 0.173) 0px 7px 29px 0px; */
-        border: 1px solid rgba(44, 44, 44, 0.169);
+        border: 1px solid rgba(44, 44, 44, 0);
         padding: 20px;
         margin: 10px;
         width: 100%;
@@ -299,7 +299,7 @@ footer .socials a{
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         /* box-shadow: rgba(255, 255, 255, 0.173) 0px 7px 29px 0px; */
-        border: 1px solid rgba(44, 44, 44, 0.169);
+        border: 1px solid rgba(44, 44, 44, 0);
         padding: 20px;
         margin: 10px;
         width: 100%;

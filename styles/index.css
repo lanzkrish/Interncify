@@ -82,6 +82,7 @@ body{
     margin: 50px 10px;
     border-radius: 16px;
     background-color: #0d6efd;
+    border-color: #0d6efd;
     color: #ffffff;
 }
 .section-cards .card .border{
@@ -91,6 +92,9 @@ body{
 }
 .section-cards2{
     display: none;
+}
+.section-cards2 .card{
+  border-color: #0d6efd;
 }
 .section-brief2{
     display: none;
@@ -125,6 +129,9 @@ body{
     padding: 20px;
     margin: 30px;
     gap: 20px;
+}
+.featurecard{
+  border: none;
 }
 .section-key-images{
     align-items: center;
