@@ -14,7 +14,7 @@ html{
 
 body{
     background-color: rgb(10, 10, 10);
-    color: aliceblue;
+    color: #e2e2e2;
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
@@ -22,16 +22,9 @@ body{
     overflow-x: hidden;
 }
 
-
-.cursive{
-    font-family: "Instrument Serif", serif;
-    font-style: italic;
+.courses{
+    background-color: #e2e2e2;
 }
-
-.hero{
-    width: 70%;
-}
-
 .heading{
     font-family: "helvetica", sans-serif;
     font-weight: 700;
@@ -164,8 +157,8 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: #fff;
     height: min-content;
+    background-color: #f1f1f1;
 }
 .container {
     /* width: 80%;
@@ -274,6 +267,9 @@ ul{
     /* transform: rotate(180deg); */
 }
 
+footer{
+    background-color: #fff;
+}
 footer .socials a{
     color: #0d6efd;
 }
