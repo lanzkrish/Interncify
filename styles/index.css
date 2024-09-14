@@ -444,4 +444,12 @@
   .mb-3{
     text-align: justify;
   }
+  .right-content{
+    max-width: 90vw !important;
+ }
+ .left-image img{
+    max-width: 90vw !important;
+    height: 60vh !important;
+    margin-bottom: 2rem !important;
+ }
 }

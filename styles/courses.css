@@ -178,6 +178,7 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
     height:min-content;
+    margin-bottom: 5rem;
 }
 .pricing-card {
     background: #0d6dfd2d;
