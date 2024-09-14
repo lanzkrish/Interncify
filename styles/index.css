@@ -422,3 +422,26 @@
         margin: 1rem 0;
     }
 }
+@media (max-width: 450px){
+  .section-brief2{
+    text-align: center;
+  }
+  .section-brief2 h3{
+    text-align: center !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section-brief2-heading{
+    text-align: start !important;
+  }
+  .section-cards2 .card{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section-brief-subpoints ul{
+    padding-left: 0rem;    
+  }
+  .mb-3{
+    text-align: justify;
+  }
+}
