@@ -68,7 +68,7 @@ featuresection = `<div class="container justify-content-center align-items-cente
     <div class="col-lg-12 col-sm-12 p-3">
         <div class="d-flex flex-column justify-content-center text-center ">
             <p class="text-capitalise" style="font-size: 35px; font-weight: 600;">Key Benifits</p>
-            <p>Discover the benefits of our internship program and kickstart your career in the tech industry</p>
+            <p>Discover the benefits of our training program and kickstart your career in the tech industry</p>
         </div>
     </div>
 </div>
