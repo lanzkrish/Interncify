@@ -469,3 +469,7 @@ body{
     margin-bottom: 2rem !important;
  }
 }
+
+.no-scroll {
+  overflow: hidden;
+}
